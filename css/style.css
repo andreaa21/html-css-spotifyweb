@@ -89,6 +89,13 @@ footer{
     .sidenav{
       width: 50px;
     }
+
+    .sidenav .playlist,
+    .install span,
+    .user-name{
+      display: none;
+    }
+
     .content{
       width: calc(100% - 50px);
     }
