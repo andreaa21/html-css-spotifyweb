@@ -48,3 +48,16 @@ header{
 footer{
   z-index: 3;
 }
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px) {
+    .sidenav{
+      width: 50px;
+    }
+    .content{
+      width: calc(100% - 50px);
+    }
+}
