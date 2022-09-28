@@ -75,6 +75,20 @@ header{
   padding-top: 90px;
 }
 
+.content-menu{
+  justify-content: center;
+}
+
+.content-menu ul{
+  flex-wrap: wrap;
+  list-style: none;
+ justify-content: center;
+}
+
+.content-menu ul li{
+  padding: 0.5rem 1rem;
+}
+
 /* FOOTER */
 
 footer{
