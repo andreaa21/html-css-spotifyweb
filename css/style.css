@@ -116,6 +116,14 @@ footer{
   align-items: center;
 }
 
+footer .artist{
+  align-items: center;
+}
+
+footer .artist .text{
+  flex-direction: column;
+}
+
 
 
 /* RESPONSIVE */
