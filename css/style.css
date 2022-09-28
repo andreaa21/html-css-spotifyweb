@@ -19,6 +19,10 @@ body{
   display: flex;
 }
 
+.space-btw{
+  justify-content: space-between;
+}
+
 .mg-r-20{
   margin-right: 20px;
 }
@@ -122,6 +126,10 @@ footer .footer-left{
 
 footer .footer-left .text{
   flex-direction: column;
+}
+
+footer ul{
+  list-style: none;
 }
 
 
