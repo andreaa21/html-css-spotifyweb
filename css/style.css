@@ -116,11 +116,11 @@ footer{
   align-items: center;
 }
 
-footer .artist{
+footer .footer-left{
   align-items: center;
 }
 
-footer .artist .text{
+footer .footer-left .text{
   flex-direction: column;
 }
 
