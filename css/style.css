@@ -19,17 +19,37 @@ body{
   display: flex;
 }
 
+.btn{
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: .5rem 1.5rem;
+}
+
+.mg-r-20{
+  margin-right: 20px;
+}
+
 header,footer{
   height: 90px;
 }
 
+/* HEADER */
+
 header{
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: fixed;
   width: 100%;
   justify-content: flex-end;
   align-items: center;
 }
+
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+/* MAIN */
 
 .sidenav{
   z-index: 2;
@@ -44,6 +64,7 @@ header{
   padding-top: 100px;
 }
 
+/* FOOTER */
 
 footer{
   z-index: 3;
