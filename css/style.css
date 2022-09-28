@@ -116,6 +116,27 @@ footer{
 
 /* RESPONSIVE */
 
+@media screen and (max-width: 780px) {
+  .card-container{
+    flex-wrap: wrap;
+  }
+  .card{
+    width: calc(100% / 4);
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  .content-menu ul li{
+    padding: .5rem .6rem;
+  }
+
+  .card{
+    width: calc(100% / 2);
+  }
+  
+}
+
 @media screen and (max-width: 480px) {
     .sidenav{
       width: 50px;
