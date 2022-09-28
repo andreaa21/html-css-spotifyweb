@@ -76,7 +76,6 @@ header{
 .sidenav{
   /* background-color: #000000; */
   flex-direction: column;
-  justify-content: space-between;
   z-index: 2;
   width: 225px;
   height: calc(100vh - 90px);
@@ -116,7 +115,6 @@ footer{
   z-index: 3;
   color: white;
   background-color: #282828;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -153,6 +151,10 @@ footer ul{
 
   .card{
     width: calc(100% / 2);
+  }
+  
+  footer .icons{
+    flex-direction: column;
   }
   
 }
