@@ -8,6 +8,10 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+img{
+  width: 100%;
+}
+
 /**** UTILITIES ****/
 
 .debug{
@@ -23,10 +27,22 @@ body{
   justify-content: space-between;
 }
 
+.h-90{
+  height: 90px;
+}
+
+.d-none{
+  display: none;
+}
+
 /* MARGIN */
 
 .mg-r-20{
   margin-right: 20px;
+}
+
+.mg-r-5{
+  margin-right: 5px;
 }
 
 .mg-b-20{
@@ -75,10 +91,6 @@ body{
   margin: 1rem 0;
 }
 
-header,footer{
-  height: 90px;
-}
-
 /* HEADER */
 
 header{
@@ -110,7 +122,6 @@ header{
 }
 
 .sidenav .logo-dk{
-  height: 90px;
   width: 70%;
   filter: brightness(0) invert(1);;
 }
@@ -123,6 +134,23 @@ header{
 .sidenav .playlist ul{
   overflow: scroll;
   margin-top: 1rem;
+}
+
+.sidenav .install{
+  /* width: 50%; */
+  /* padding-bottom: .5rem; */
+}
+
+.sidenav .install span{
+  font-size: .7rem;
+}
+
+.sidenav .install img{
+  width: 1rem;
+}
+
+.sidenav .user img{
+  width: 50%;
 }
 
 .playlist ul li{
@@ -215,6 +243,12 @@ footer ul{
 @media screen and (max-width: 480px) {
     .sidenav{
       width: 50px;
+    }
+
+    .sidenav .logo-xs{
+      display: flex;
+      margin: .5rem 0;
+      transform: scale(1.2);
     }
 
     .d-none-480{

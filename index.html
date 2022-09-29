@@ -14,7 +14,7 @@
 <body>
 
 
-  <header class="d-flex">
+  <header class="d-flex h-90">
     <div class="btn mg-r-20">
       <a href="#">effettua l'upgrade</a>
     </div>
@@ -25,8 +25,12 @@
 
   <div class="sidenav d-flex space-btw pd-lr-1">
     <div class="sidenav-top">
-      <div class="logo-dk d-flex d-none-480">
+      <div class="logo-dk d-flex d-none-480 h-90">
         <img src="img/logo.svg" alt="">
+      </div>
+
+      <div class="logo-xs d-none">
+        <img src="img/logo-small.svg" alt="logo-small">
       </div>
   
       <div class="nav-menu">
@@ -70,19 +74,21 @@
     </div>
 
     <div class="sidenav-bottom pd-tb-05">
-      <div class="install">
-        <i class="fa-solid fa-circle-down"></i>
+      <div class="install pd-tb-02 d-flex">
+        <img src="img/download.svg" class="mg-r-5" alt="download">
         <span class="d-none-480">
           installa app
         </span>
       </div>
   
-      <div class="user d-flex">
+      <div class="user pd-tb-02 d-flex">
         <div class="user-img">
-          user-img
+          <img src="img/profile.svg" alt="user">
         </div>
-        <div class="user-name">
-          name
+        <div class="user-name d-none-480">
+          <span>
+            John Doe
+          </span>
         </div>
       </div>
     </div>
@@ -242,7 +248,7 @@
   </div>
   </main>
 
-  <footer class="d-flex space-btw">
+  <footer class="d-flex space-btw h-90">
     <div class="footer-left debug d-flex">
       <img src="" alt="artist-img">
       <div class="text d-flex">
