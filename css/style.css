@@ -152,9 +152,13 @@ header{
   margin-top: 1rem;
 }
 
-.sidenav .install{
-  /* width: 50%; */
-  /* padding-bottom: .5rem; */
+.sidenav .nav-menu span{
+  font-size: .8rem;
+}
+
+.sidenav .nav-menu img{
+  width: 1.5rem;
+  margin-right: 5px;
 }
 
 .sidenav .install span{
@@ -278,6 +282,11 @@ footer ul{
   .card{
     width: calc(100% / 4);
   }
+
+  .footer-mid .controls{
+    width: 80%;
+  }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -298,6 +307,10 @@ footer ul{
 
   footer .icons{
     flex-direction: column;
+  }
+
+  .footer-mid .controls{
+    width: 100%;
   }
   
 }
