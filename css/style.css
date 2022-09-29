@@ -23,12 +23,18 @@ body{
   justify-content: space-between;
 }
 
+/* MARGIN */
+
 .mg-r-20{
   margin-right: 20px;
 }
 
 .mg-b-20{
   margin-bottom: 20px;
+}
+
+.mg-t-10{
+  margin-top: 10px;
 }
 /* PADDING */
 
@@ -144,6 +150,13 @@ header{
 
 .content-menu ul li{
   padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: lightgray;
+}
+
+.content-menu ul span{
+  font-weight: bolder;
 }
 
 .box .card-container{
@@ -186,7 +199,7 @@ footer ul{
 @media screen and (max-width: 560px) {
 
   .content-menu ul li{
-    padding: .5rem .6rem;
+        /* width: 40%; */
   }
 
   .card{
