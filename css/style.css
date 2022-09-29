@@ -139,7 +139,13 @@ header{
 
 .sidenav .logo-dk{
   width: 70%;
-  filter: brightness(0) invert(1);;
+  filter: brightness(0) invert(1);
+}
+
+.sidenav .playlist h2{
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: bolder;
 }
 
 .sidenav .playlist i{
@@ -171,20 +177,23 @@ header{
 
 .sidenav .user{
   border-top: 1px solid gray;
-  align-items: center;
   padding-top: .5rem;
 }
 
 .sidenav .user img{
   width: 1.5rem;
   height: 1.5rem;
-  margin-right: .5rem;
   background-color: gray;
   border-radius: 50%;
 }
 
+.sidenav .user-name{
+  margin-left: .5rem;
+}
+
 .playlist ul li{
-  font-size: .8rem;
+  font-size: .75rem;
+  font-weight: bold;
 }
 
 .content{
@@ -350,12 +359,30 @@ footer ul{
 @media screen and (max-width: 480px) {
     .sidenav{
       width: 50px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidenav .nav-menu{
+      margin-top: 1rem;
+    }
+
+    .sidenav .nav-menu img{
+      margin-bottom: .5rem;
     }
 
     .sidenav .logo-xs{
       display: flex;
       margin: .5rem 0;
-      transform: scale(1.2);
+      filter: brightness(0) invert(1);
+    }
+
+    .sidenav-bottom img{
+      margin: 0 auto;
+    }
+
+    .sidenav .user{
+      border: none;
     }
 
     .d-none-480{
