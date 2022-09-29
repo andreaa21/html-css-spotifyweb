@@ -100,7 +100,7 @@ img{
 }
 
 .bar{
-  background-color: aqua;
+  background-color: grey;
   height: 3px;
   width: 80%;
   border-radius: 20px;
@@ -169,8 +169,18 @@ header{
   width: 1rem;
 }
 
+.sidenav .user{
+  border-top: 1px solid gray;
+  align-items: center;
+  padding-top: .5rem;
+}
+
 .sidenav .user img{
-  width: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: .5rem;
+  background-color: gray;
+  border-radius: 50%;
 }
 
 .playlist ul li{
@@ -240,10 +250,19 @@ footer .footer-left .artist-img{
 
 footer .footer-left .text{
   flex-direction: column;
+  font-size: .7rem;
+  width: 70%;
+  padding-left: .5rem;
+}
+
+.footer-left .text span:first-child{
+  color: white;
+  font-weight: bold;
 }
 
 .footer-left .icons i{
   margin-right: .5rem;
+  color: gray;
 }
 
 footer ul{
