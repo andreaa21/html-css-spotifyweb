@@ -99,6 +99,13 @@ img{
   margin: 1rem 0;
 }
 
+.bar{
+  background-color: aqua;
+  height: 3px;
+  width: 80%;
+  border-radius: 20px;
+}
+
 /* HEADER */
 
 header{
@@ -214,7 +221,9 @@ footer .footer-left{
 }
 
 footer .footer-mid{
-
+  /* width: calc(100% - 450px); */
+  width: 50%;
+  padding: 0 2rem;
 }
 
 footer .footer-right{
@@ -236,6 +245,27 @@ footer .footer-left .text{
 footer ul{
   list-style: none;
 }
+
+.footer-mid{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-mid .controls{
+  width: 50%;
+}
+
+.footer-mid .progress{
+  align-items: center;
+  width: 100%;
+}
+
+.footer-mid .progress span{
+  font-size: .6rem;
+  font-weight: bold;
+}
+
 
 
 
