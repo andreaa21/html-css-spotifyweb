@@ -270,6 +270,19 @@ footer ul{
   font-weight: bold;
 }
 
+.footer-right{
+  align-items: center;
+}
+
+.footer-right .options{
+  width: 55%;
+  justify-content: space-around;
+}
+
+.footer-right .options i{
+  font-size: .7rem;
+}
+
 
 
 
