@@ -217,9 +217,7 @@ footer ul{
       width: 50px;
     }
 
-    .sidenav .playlist,
-    .install span,
-    .user-name{
+    .d-none-480{
       display: none;
     }
 
