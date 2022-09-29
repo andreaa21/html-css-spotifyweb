@@ -394,6 +394,10 @@ footer ul{
   .footer-mid .controls{
     width: 100%;
   }
+
+  .footer-mid .bar{
+    width: 60%;
+  }
   
 }
 
