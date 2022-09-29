@@ -127,6 +127,7 @@ header{
   /* z-index: 2; */
   width: 225px;
   height: calc(100vh - 90px);
+  overflow: hidden;
 }
 
 .sidenav .logo-dk{
@@ -140,7 +141,7 @@ header{
 }
 
 .sidenav .playlist ul{
-  overflow: scroll;
+  overflow: auto;
   margin-top: 1rem;
 }
 
@@ -217,7 +218,7 @@ footer .footer-mid{
 }
 
 footer .footer-right{
-
+  width: 225px;
 }
 
 footer .footer-left .artist-img{
