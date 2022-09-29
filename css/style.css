@@ -259,6 +259,12 @@ footer ul{
     width: calc(100% / 2);
   }
 
+  .footer-left,
+  .footer-mid,
+  .footer-right{
+    width: calc(100% / 3);
+  }
+
   footer .icons{
     flex-direction: column;
   }
