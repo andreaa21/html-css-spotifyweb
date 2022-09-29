@@ -103,8 +103,10 @@ header{
   height: calc(100vh - 90px);
 }
 
-.sidenav .logo{
+.sidenav .logo-dk{
   height: 90px;
+  width: 70%;
+  filter: brightness(0) invert(1);;
 }
 
 .sidenav .playlist i{
