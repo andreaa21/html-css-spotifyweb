@@ -49,6 +49,10 @@ img{
   color: lightgray;
 }
 
+.d-gray{
+  color: darkgray;
+}
+
 /* MARGIN */
 
 .mg-r-20{
@@ -66,6 +70,11 @@ img{
 .mg-t-10{
   margin-top: 10px;
 }
+
+.mg-t-30{
+  margin-top: 30px;
+}
+
 /* PADDING */
 
 .pd-lr-1{
@@ -90,6 +99,10 @@ img{
 
 .pd-03{
   padding: 0.3rem;
+}
+
+.pd-05{
+  padding: 0.5rem;
 }
 
 /* COMPONENTS */
@@ -134,7 +147,6 @@ header{
 .btn a{
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: .7rem;
   color: white;
 }
@@ -158,7 +170,6 @@ header{
 .sidenav .playlist h2{
   text-transform: uppercase;
   font-size: .8rem;
-  font-weight: bolder;
 }
 
 .sidenav .playlist i{
@@ -206,7 +217,6 @@ header{
 
 .playlist ul li{
   font-size: .75rem;
-  font-weight: bold;
 }
 
 .content{
@@ -235,12 +245,17 @@ header{
   color: lightgray;
 }
 
-.content-menu ul span{
-  font-weight: bolder;
-}
-
 .box .card-container{
   width: 100%;
+}
+
+.box h2{
+  font-size: 1.3rem;
+}
+
+.box p{
+  font-size: .8rem;
+  margin-top: .3rem;
 }
 
 .card-title{
@@ -251,6 +266,12 @@ header{
   font-size: .7rem;
   margin-top: .3rem;
 }
+
+#popular img{
+  border-radius: 50%;
+}
+
+
 /* FOOTER */
 
 footer{
@@ -288,7 +309,6 @@ footer .footer-left .text{
 
 .footer-left .text span:first-child{
   color: white;
-  font-weight: bold;
 }
 
 .footer-left .icons i{
@@ -317,7 +337,6 @@ footer ul{
 
 .footer-mid .progress span{
   font-size: .6rem;
-  font-weight: bold;
 }
 
 .footer-right{
