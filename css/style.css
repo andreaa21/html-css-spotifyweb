@@ -62,12 +62,20 @@ img{
   padding: 0 .5rem;
 }
 
+.pd-l-03{
+  padding-left: .3rem;
+}
+
 .pd-tb-05{
   padding: .5rem 0;
 }
 
 .pd-tb-02{
   padding: .2rem 0;
+}
+
+.pd-03{
+  padding: 0.3rem;
 }
 
 /* COMPONENTS */
@@ -201,10 +209,27 @@ footer{
 
 footer .footer-left{
   align-items: center;
+  width: 225px;
+}
+
+footer .footer-mid{
+
+}
+
+footer .footer-right{
+
+}
+
+footer .footer-left .artist-img{
+  width: 20%;
 }
 
 footer .footer-left .text{
   flex-direction: column;
+}
+
+.footer-left .icons i{
+  margin-right: .5rem;
 }
 
 footer ul{
