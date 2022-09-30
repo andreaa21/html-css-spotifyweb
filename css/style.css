@@ -325,7 +325,6 @@ header{
 }
 
 .card-image{
-  height: 70%;
   position: relative;
 }
 
@@ -342,7 +341,7 @@ header{
 .card-image i{
   position: absolute;
   top: 40%;
-  left: 40%;
+  left: 45%;
   z-index: 1;
   transform: scale(2);
   display: none;
@@ -353,11 +352,7 @@ header{
 
 .card-image:hover .black,
 .card-image:hover i{
-  display: block;
-}
-
-.card-text{
-  height: 30%;
+  display: inline-block;
 }
 
 .card-title{
@@ -509,24 +504,37 @@ footer ul{
 }
 
 @media screen and (max-width: 480px) {
+
+
+    header{
+      z-index: 1;
+    }
+
     .sidenav{
       width: 50px;
       flex-direction: column;
       align-items: center;
+      z-index: 2;
     }
 
     .sidenav .nav-menu{
-      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
     }
 
-    .sidenav .nav-menu img{
-      margin-bottom: .5rem;
+    .sidenav .nav-menu a{
+      display: none;
+    }
+
+    .active{
+      border: none;
     }
 
     .sidenav .logo-xs{
       display: flex;
-      margin: .5rem 0;
+      align-items: center;
       filter: brightness(0) invert(1);
+      transform: scale(.6);
     }
 
     .sidenav-bottom img{
