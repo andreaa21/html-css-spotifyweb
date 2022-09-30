@@ -157,25 +157,33 @@ img{
 }
 
 .active-btm{
-  border-bottom: 2px solid #B8FF32;
+  border-bottom: 3px solid #B8FF32;
   position: relative;
 }
 
-/* .active-btm:after {
+.active-btm::before{
   content: "";
   display: block;
+  background-color: #141922;
   width: 30%;
-  border-bottom: 3px solid red;
+  height: 10px;
   position: absolute;
-  bottom: 0;
-  left: 0;
-} */
+}
+
+.active-btm::after{
+  content: "";
+  display: block;
+  background-color: #141922;
+  width: 30%;
+  height: 10px;
+  position: absolute;
+  right: 0;
+}
 
 /* HEADER */
 
 header{
   background-color: rgba(0, 0, 0, 0.5);
-  /* z-index: 1; */
   position: fixed;
   width: 100%;
   justify-content: flex-end;
@@ -200,7 +208,6 @@ header{
 .sidenav{
   background-color: #000000;
   flex-direction: column;
-  /* z-index: 2; */
   width: 225px;
   height: calc(100vh - 90px);
   overflow: hidden;
@@ -228,7 +235,7 @@ header{
 
 .sidenav .play-scroll{
   overflow: auto;
-  height: 200px;
+  height: 250px;
 }
 
 .sidenav .playlist ul{
@@ -399,7 +406,6 @@ footer .footer-left{
 }
 
 footer .footer-mid{
-  /* width: calc(100% - 450px); */
   width: 50%;
   padding: 0 2rem;
 }
@@ -506,12 +512,17 @@ footer ul{
     width: 80%;
   }
 
+  .footer-mid .progress .bar{
+    margin: 0 1rem;
+  }
+
 }
 
 @media screen and (max-width: 560px) {
 
   .content-menu ul li{
     width: 33%;
+    padding: 10px;
   }
 
   .card{
