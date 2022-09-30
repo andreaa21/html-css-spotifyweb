@@ -592,4 +592,8 @@ footer ul{
     .content{
       width: calc(100% - 50px);
     }
+
+    .footer-left .icons i:first-child{
+      margin-bottom: 5px;
+    }
 }
