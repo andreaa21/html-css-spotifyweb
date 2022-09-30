@@ -245,6 +245,11 @@ header{
   margin-right: 5px;
 }
 
+.sidenav .install:hover{
+  color: white;
+  cursor: pointer;
+}
+
 .sidenav .install span{
   font-size: .7rem;
 }
