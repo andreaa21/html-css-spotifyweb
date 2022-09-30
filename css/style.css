@@ -132,6 +132,14 @@ img{
   height: 3px;
   width: 80%;
   border-radius: 20px;
+  position: relative;
+}
+
+.bar2{
+  position: absolute;
+  background-color: lightgray;
+  width: 25%;
+  height: 3px;
 }
 
 .active{
