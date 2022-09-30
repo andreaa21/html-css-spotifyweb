@@ -428,9 +428,8 @@ footer .footer-left .text{
   color: white;
 }
 
-.footer-left .icons i{
-  margin-right: .5rem;
-  color: gray;
+.footer-left .text span:last-child:hover{
+  text-decoration: underline;
 }
 
 .footer-left .icons i:hover{
