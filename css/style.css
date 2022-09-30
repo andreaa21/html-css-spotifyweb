@@ -177,9 +177,13 @@ header{
   margin-right: .5rem;
 }
 
-.sidenav .playlist ul{
+.sidenav .play-scroll{
   overflow: auto;
-  margin-top: 1rem;
+  height: 200px;
+}
+
+.sidenav .playlist ul{
+  list-style: none;
 }
 
 .sidenav .nav-menu span{
