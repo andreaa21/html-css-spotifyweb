@@ -27,6 +27,10 @@ img{
   justify-content: space-between;
 }
 
+.align-center{
+  align-items: center;
+}
+
 .h-90{
   height: 90px;
 }
@@ -184,6 +188,10 @@ header{
 
 .sidenav .playlist ul{
   list-style: none;
+}
+
+.sidenav .nav-menu{
+  width: 100%;
 }
 
 .sidenav .nav-menu span{
