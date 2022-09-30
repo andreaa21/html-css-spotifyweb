@@ -49,10 +49,6 @@ img{
 
 /* COLORS */
 
-.l-gray{
-  color: lightgray;
-}
-
 .d-gray{
   color: darkgray;
 }
@@ -380,6 +376,11 @@ footer .footer-left .text{
 .footer-left .icons i{
   margin-right: .5rem;
   color: gray;
+}
+
+.footer-left .icons i:hover{
+  color: white;
+  cursor: pointer;
 }
 
 footer ul{
