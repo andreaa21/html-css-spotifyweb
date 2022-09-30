@@ -142,6 +142,16 @@ img{
   height: 3px;
 }
 
+.bar-end{
+  height: 15px;
+  width: 15px;
+  background-color: lightgray;
+  border-radius: 50%;
+  position: absolute;
+  left: 24%;
+  display: none;
+}
+
 .active{
   border-left: 3px solid #B8FF32;
 }
@@ -442,12 +452,28 @@ footer ul{
   width: 100%;
 }
 
+.progress:hover .bar2{
+  background-color: #B8FF32;
+}
+
+.progress:hover .bar-end{
+  display: block;
+}
+
 .footer-mid .progress span{
   font-size: .6rem;
 }
 
 .footer-right{
   align-items: center;
+}
+
+.footer-right .bar:hover .bar2{
+  background-color: #B8FF32;
+}
+
+.footer-right .bar:hover .bar-end{
+  display: block;
 }
 
 .footer-right .options{
