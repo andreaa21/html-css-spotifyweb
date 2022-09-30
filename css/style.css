@@ -207,6 +207,11 @@ header{
   margin-right: .5rem;
 }
 
+.sidenav .new-playlist:hover{
+  color: white;
+  cursor: pointer;
+}
+
 .sidenav .play-scroll{
   overflow: auto;
   height: 200px;
@@ -214,6 +219,11 @@ header{
 
 .sidenav .playlist ul{
   list-style: none;
+}
+
+.playlist ul li:hover{
+  color: white;
+  cursor: pointer;
 }
 
 .sidenav .nav-menu{
